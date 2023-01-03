@@ -4,17 +4,17 @@ public class AssistanceRisk extends Risk{
 
     @Override
     public float getPremium() {
-        return 0;
+        return 0.05F;
     }
 
     @Override
     public float getCoverage() {
-        return 0;
+        return 0.8f;
     }
 
     @Override
     public float getCeiling() {
-        return 0;
+        return 8;
     }
 
     public String[] assistanceRisksCovered = {
