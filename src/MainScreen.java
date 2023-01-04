@@ -974,6 +974,10 @@ public class MainScreen extends JFrame {
                {
                    coveredRisksList.add(assistanceRisk.assistanceRisksCovered[i]);
                }
+               
+               premiumRisksList.add(assistanceRisk.getPremium());
+               coverageRisksList.add(assistanceRisk.getCoverage());
+               ceilingRiskList.add(assistanceRisk.getCeiling());
 
            }
        });
